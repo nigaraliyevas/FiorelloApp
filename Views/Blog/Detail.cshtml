@@ -1,0 +1,22 @@
+﻿@model Blog
+@{
+    ViewData["Title"] = "Details";
+}
+<div class="container">
+    <div class="blog">
+        <div class="row">
+            <div class="col-md-6 col-lg-6">
+                <img src="~/img/@Model.ImageURL" class="img-fluid" alt="">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <div class="about-text text-center px-5">
+                    <h3>@Model.Title</h3>
+                    <p class="text-black-50 text-justify">@Model.Desc</p>
+                    <span class="mb-5 d-inline-block">@Model.CreatedDate?.ToString("dd.MM.yyyy")</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
