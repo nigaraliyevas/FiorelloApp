@@ -4,26 +4,11 @@
 }
 <section id="blog">
     <div class="container">
-        <div class="row">
-            @foreach (var blog in Model)
-            {
-                <div class="col-md-6 col-lg-4">
-                    <a asp-controller="blog" asp-action="detail" asp-route-id="@blog.Id" class="text-decoration-none">
-                        <div class="item">
-                            <div class="img position-relative">
-                                <img src="~/img/@blog.ImageURL" class="img-fluid" alt="">
-                                <div class="date rounded bg-light position-absolute py-1 px-2">
-                                    <span>@blog.CreatedDate?.ToString("dd.MM.yyyy")</span>
-                                </div>
-                            </div>
-                            <div class="text mt-3 text-center px-5">
-                                <h5>@blog.Title</h5>
-                                <p class="text-black-50">@blog.ShortDesc...</p>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            }
+        <div class="row blogList">
+            @await Component.InvokeAsync("Blog", 3)
+        </div>
+        <div class="btn-area text-center my-5">
+            <button class="btn btn-outline-danger loadMoreBtn">Load More...</button>
         </div>
     </div>
 </section>

@@ -1,0 +1,17 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container">
+    <div class="blog">
+        <div class="row justify-content-center">
+            <div>
+                <img src="~/img/@Model.ProductImages.FirstOrDefault(p=>p.ProductId==Model.Id).ImageURL" class="img-fluid" alt="">
+                <h3 class="text-center mt-3">@Model.Name</h3>
+                <p class="text-black-50 text-center">@Model.Price$</p>
+                <span class="mb-5 d-inline-block">@Model.CreatedDate?.ToString("dd.MM.yyyy")</span>
+            </div>
+        </div>
+    </div>
+</div>

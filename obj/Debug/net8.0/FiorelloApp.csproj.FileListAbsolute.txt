@@ -248,3 +248,4 @@ C:\Users\User\Desktop\practiceClass\Backend\Home\FiorelloApp\obj\Debug\net8.0\re
 C:\Users\User\Desktop\practiceClass\Backend\Home\FiorelloApp\obj\Debug\net8.0\FiorelloApp.pdb
 C:\Users\User\Desktop\practiceClass\Backend\Home\FiorelloApp\obj\Debug\net8.0\FiorelloApp.genruntimeconfig.cache
 C:\Users\User\Desktop\practiceClass\Backend\Home\FiorelloApp\obj\Debug\net8.0\ref\FiorelloApp.dll
+C:\Users\User\Desktop\practiceClass\Backend\Home\FiorelloApp\obj\Debug\net8.0\FiorelloApp.sourcelink.json

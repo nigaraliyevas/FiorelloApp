@@ -1,0 +1,10 @@
+﻿@model IEnumerable<Product>
+@foreach (var product in Model)
+{
+    <li>
+        <div class="row">
+            <a class="col-lg-6" asp-controller="home" asp-action="detail" asp-route-id="@product.Id">@product.Name</a>
+            <img class="col-lg-6" src="~/img/@product.ProductImages.FirstOrDefault(p=>p.ProductId==product.Id).ImageURL" alt="@product.Name" width="70" height="70" />
+        </div>
+    </li>
+}
