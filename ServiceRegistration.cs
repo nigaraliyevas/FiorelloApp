@@ -12,6 +12,11 @@ namespace FiorelloApp
             {
                 options.UseSqlServer(config.GetConnectionString("DefaultConnection"));
             });
+            //services.AddSession(options =>
+            //{
+            //    options.IdleTimeout = TimeSpan.FromSeconds(20);
+            //});
+            services.AddHttpContextAccessor();
         }
     }
 }

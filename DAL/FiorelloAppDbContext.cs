@@ -11,9 +11,15 @@ namespace FiorelloApp.DAL
         public DbSet<ProductImage> ProductImages { get; set; }
         public DbSet<Expert> Experts { get; set; }
         public DbSet<Blog> Blogs { get; set; }
+        public DbSet<Setting> Settings { get; set; }
         public FiorelloAppDbContext(DbContextOptions options) : base(options)
         {
 
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
+            base.OnModelCreating(modelBuilder);
         }
     }
 }

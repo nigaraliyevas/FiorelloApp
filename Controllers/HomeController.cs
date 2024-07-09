@@ -16,6 +16,7 @@ namespace FiorelloApp.Controllers
 
         public IActionResult Index()
         {
+            var demo = _context.Products.ToList();
             var homeVm = new HomeVM()
             {
                 Sliders = _context.Sliders.

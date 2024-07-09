@@ -1,0 +1,42 @@
+﻿@model List<BasketVM>
+@{
+    ViewData["Title"] = "ShowBasket";
+    var count = 1;
+    double total = 0;
+}
+<div class="container">
+    <table class="table mb-4">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Name</th>
+                <th scope="col">Image</th>
+                <th scope="col">Count</th>
+                <th scope="col">Price</th>
+                <th scope="col">Settings</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var basketProduct in Model)
+            {
+                <tr>
+                    <th scope="row">@(count++)</th>
+                    <td>@basketProduct.Name</td>
+                    <td>
+                        <img src="~/img/@basketProduct.ImageURL" alt="" width="150" height="150" />
+                    </td>
+                    <td>@basketProduct.BasketCount</td>
+                    <td>@basketProduct.Price$</td>
+                    <td>
+                        <a style="font-size:18px" asp-action="delete" asp-route-id="@basketProduct.Id">X</a>
+                    </td>
+                </tr>
+                total += basketProduct.Price * basketProduct.BasketCount;
+
+            }
+        </tbody>
+    </table>
+    <h3 class="text-success text-right mb-4">Total Price : @total $</h3>
+</div>
+
+
