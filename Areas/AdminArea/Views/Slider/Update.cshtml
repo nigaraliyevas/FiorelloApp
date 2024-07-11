@@ -1,0 +1,29 @@
+﻿@model SliderUpdateVM
+@{
+    ViewData["Title"] = "Update";
+}
+<div class="container">
+    <div class="row">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Create Update form</h4>
+                <p>Current Image:</p>
+                <img src="~/img/@Model.Photo" alt="" width="200" height="200" />
+                <form enctype="multipart/form-data" asp-action="update" class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label asp-for="Photo"></label>
+                        <input asp-for="PhotoUpload" class="form-control">
+                        <span class="text-danger" asp-validation-for="PhotoUpload"></span>
+
+                    </div>
+                    <button type="submit" class="btn btn-primary me-2">Create</button>
+                    <a asp-action="index" class="btn btn-light">Go back</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+

@@ -3,32 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:serviceregistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\areas\\adminarea\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:areas\\adminarea\\controllers\\slidercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:controllers\\basketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\views\\shared\\components\\headersetting\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:views\\shared\\components\\headersetting\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\viewcomponents\\headersettingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:viewcomponents\\headersettingviewcomponent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\viewmodels\\headervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:viewmodels\\headervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\views\\basket\\showbasket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:views\\basket\\showbasket.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:viewmodels\\basketvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|c:\\users\\user\\desktop\\practiceclass\\backend\\home\\fiorelloapp\\areas\\adminarea\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D78AA85-FEA2-4EAC-BB3C-AD5E5366F045}|FiorelloApp.csproj|solutionrelative:areas\\adminarea\\extensions\\extension.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,92 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ServiceRegistration.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ServiceRegistration.cs",
-              "RelativeDocumentMoniker": "ServiceRegistration.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ServiceRegistration.cs",
-              "RelativeToolTip": "ServiceRegistration.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Title": "SliderController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Areas\\AdminArea\\Controllers\\SliderController.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\Controllers\\SliderController.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Areas\\AdminArea\\Controllers\\SliderController.cs",
+              "RelativeToolTip": "Areas\\AdminArea\\Controllers\\SliderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACUAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T17:43:26.093Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HeaderVM.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewModels\\HeaderVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\HeaderVM.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewModels\\HeaderVM.cs",
-              "RelativeToolTip": "ViewModels\\HeaderVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-09T14:44:24.031Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HeaderSettingViewComponent.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewComponents\\HeaderSettingViewComponent.cs",
-              "RelativeDocumentMoniker": "ViewComponents\\HeaderSettingViewComponent.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewComponents\\HeaderSettingViewComponent.cs",
-              "RelativeToolTip": "ViewComponents\\HeaderSettingViewComponent.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAEwCcAAAAmAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T23:18:32.839Z",
+              "WhenOpened": "2024-07-11T13:37:44.998Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "BasketController.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Controllers\\BasketController.cs",
-              "RelativeDocumentMoniker": "Controllers\\BasketController.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Controllers\\BasketController.cs",
-              "RelativeToolTip": "Controllers\\BasketController.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAAAIwE4AAAAMAAAA",
+              "Title": "Extension.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Areas\\AdminArea\\Extensions\\Extension.cs",
+              "RelativeDocumentMoniker": "Areas\\AdminArea\\Extensions\\Extension.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Areas\\AdminArea\\Extensions\\Extension.cs",
+              "RelativeToolTip": "Areas\\AdminArea\\Extensions\\Extension.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T23:17:39.492Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Views\\Shared\\Components\\HeaderSetting\\Default.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\Components\\HeaderSetting\\Default.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Views\\Shared\\Components\\HeaderSetting\\Default.cshtml",
-              "RelativeToolTip": "Views\\Shared\\Components\\HeaderSetting\\Default.cshtml",
-              "ViewState": "AQIAAIoAAAAAAAAAAAAAAKEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T23:15:24.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ShowBasket.cshtml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Views\\Basket\\ShowBasket.cshtml",
-              "RelativeDocumentMoniker": "Views\\Basket\\ShowBasket.cshtml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\Views\\Basket\\ShowBasket.cshtml",
-              "RelativeToolTip": "Views\\Basket\\ShowBasket.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACEAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-07-08T23:11:10.514Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BasketVM.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewModels\\BasketVM.cs",
-              "RelativeDocumentMoniker": "ViewModels\\BasketVM.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\practiceClass\\Backend\\Home\\FiorelloApp\\ViewModels\\BasketVM.cs",
-              "RelativeToolTip": "ViewModels\\BasketVM.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-08T23:03:30.205Z",
+              "WhenOpened": "2024-07-11T13:36:30.294Z",
               "EditorCaption": ""
             }
           ]

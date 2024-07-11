@@ -1,0 +1,20 @@
+﻿@model Category
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <h4 class="card-title">@Model.Name</h4>
+                    <p>@Model.Desc</p>
+                    <p>@Model.CreatedDate?.ToString("dd.mm.yyyy")</p>
+                    <a class="btn btn-outline-google" asp-action="index">Go back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

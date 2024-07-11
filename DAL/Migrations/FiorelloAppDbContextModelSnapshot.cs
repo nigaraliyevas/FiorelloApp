@@ -33,7 +33,7 @@ namespace FiorelloApp.DAL.Migrations
                     b.Property<DateTime?>("CreatedDate")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("datetime2")
-                        .HasDefaultValue(new DateTime(2024, 7, 6, 0, 52, 8, 866, DateTimeKind.Local).AddTicks(258));
+                        .HasDefaultValue(new DateTime(2024, 7, 10, 3, 6, 36, 987, DateTimeKind.Local).AddTicks(5218));
 
                     b.Property<string>("Desc")
                         .IsRequired()
@@ -62,6 +62,11 @@ namespace FiorelloApp.DAL.Migrations
 
                     b.Property<DateTime?>("CreatedDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<string>("Desc")
+                        .IsRequired()
+                        .HasMaxLength(1000)
+                        .HasColumnType("nvarchar(1000)");
 
                     b.Property<string>("Name")
                         .IsRequired()
