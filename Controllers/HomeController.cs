@@ -42,7 +42,9 @@ namespace FiorelloApp.Controllers
         public IActionResult Detail(int? id)
         {
             if (id == null) return BadRequest();
-            var blog = _context.Products.AsNoTracking().Include(p => p.ProductImages).FirstOrDefault(b => b.Id == id);
+            var blog = _context.Products
+                .AsNoTracking()
+                .Include(p => p.ProductImages).FirstOrDefault(b => b.Id == id);
             if (blog == null) return NotFound();
             return View(blog);
         }

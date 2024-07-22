@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FiorelloApp")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d6e006421d37bc9da55d28c57195540c28f2295")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+280dd5b798e69619733f6cfb7aecda1b1ec5c49d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FiorelloApp")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FiorelloApp")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

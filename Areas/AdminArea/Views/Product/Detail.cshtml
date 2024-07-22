@@ -1,0 +1,38 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "Detail";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-12 grid-margin stretch-card mt-5">
+            <div class="card">
+                <div class="card-body">
+                    <p>Main Picture</p>
+                    <img width="200" height="200" src="~/img/@Model.ProductImages.FirstOrDefault(p=>p.IsMain).ImageURL" alt="" />
+                    <div class="d-flex mb-2">
+                        @foreach (var item in Model.ProductImages)
+                        {
+                            if (!item.IsMain)
+                            {
+                                <div style="border:1px solid gray;padding:15px">
+                                    <img width="100" height="100" src="~/img/@item.ImageURL" alt="" />
+                                    <a asp-action="SetMainPhoto" asp-controller="product" asp-route-id="@item.Id" class="d-block">Click</a>
+                                </div>
+
+                            }
+                        }
+                    </div>
+                    <h4 class="card-title m-0">@Model.Name</h4>
+                    <small class="d-block">@Model.Category.Name</small>
+                    <p class="">Price:@Model.Price</p>
+                    <p>Count:@Model.Count</p>
+
+                    <p>@Model.CreatedDate?.ToString("dd.mm.yyyy")</p>
+                    <a class="btn btn-outline-google" asp-action="index">Go back</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
